@@ -1,6 +1,5 @@
 # The-Hall-Monitor
 
-# The Hall Monitor
 ### Multi-Modal Occupancy Detection System
 
 > Three independent sensing channels. One fused estimate. Real-time library occupancy — without relying on any single point of failure.
@@ -99,36 +98,7 @@ No single channel is trusted blindly. If one fails, the other two carry the esti
 
 ## Sample Output
 
-```
-==================================================
-   The Hall Monitor — Multi-Modal Occupancy Detection
-==================================================
-
-[1/3] Camera Channel (YOLOv8)...
-      Image                  : sample_images/aastha1.jpeg
-      People detected        : 45
-
-[2/3] Seat Sensor Channel (Load Cell)...
-      Seats scanned          : 50
-      Occupied seats         : 39
-
-[3/3] WiFi Probe Channel...
-      Live reading           : MACs=90, RSSI=-50, probe_rate=4.2
-      Estimated occupancy    : 46 people
-
-==================================================
-       The Hall Monitor — Library Occupancy Report
-==================================================
-  Seat Sensors  (ground truth) :  39 people
-  Camera        (YOLOv8)       :  45 people
-  WiFi Probes   (estimate)     :  46 people
---------------------------------------------------
-  Fused Occupancy Estimate     :  42 people
-  Capacity Usage               : 84%
-  Status                       : BUSY    — Limited seats available
-==================================================
-```
-
+![The Hall Monitor — Demo Run](output_image.png)
 ---
 
 ## Project Structure
