@@ -133,7 +133,10 @@ pip install ultralytics scikit-learn pandas joblib numpy
 
 **3. Download model files**
 
-Weights and models are too large for GitHub. Download from [Google Drive →](#) and place as shown in the project structure above.
+All model files are included in the repository:
+- `best.pt`
+- `sensor_model.pkl`
+- `wifi_occupancy_model.pkl`
 
 **4. Run**
 ```bash
