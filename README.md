@@ -105,15 +105,14 @@ No single channel is trusted blindly. If one fails, the other two carry the esti
 
 ```
 hall-monitor/
-├── demo.py                  # Full fusion pipeline — run this
-├── sample_images/
-│   └── aastha1.jpeg         # Sample test image
-├── weights/
-│   └── best.pt              # YOLOv8 trained weights (see Setup)
-├── models/
-│   ├── sensor_model.pkl     # Trained load cell regression model
-│   └── wifi_occupancy_model.pkl  # Trained WiFi regression model
+├── demo.py                      # Full fusion pipeline — run this
+├── aastha1.jpeg                 # Sample test image
+├── best.pt                      # YOLOv8 trained weights
+├── sensor_model.pkl             # Trained load cell regression model
+├── wifi_occupancy_model.pkl     # Trained WiFi regression model
+├── output_image.png             # Sample output screenshot
 └── README.md
+
 ```
 
 ---
