@@ -104,7 +104,7 @@ No single channel is trusted blindly. If one fails, the other two carry the esti
 ## Project Structure
 
 ```
-hall-monitor/
+The-Hall-Monitor/
 ├── demo.py                      # Full fusion pipeline — run this
 ├── aastha1.jpeg                 # Sample test image
 ├── best.pt                      # YOLOv8 trained weights
@@ -121,8 +121,8 @@ hall-monitor/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/aasthashiva/hall-monitor
-cd hall-monitor
+git clone https://github.com/aasthashiva/The-Hall-Monitor
+cd The-Hall-Monitor
 ```
 
 **2. Install dependencies**
