@@ -167,3 +167,14 @@ Target environments: libraries, lecture halls, restaurants, stadiums.
 
 ---
 
+## Current Status & Known Limitations
+- Software fusion pipeline: complete and validated (see demo output)
+- WiFi and sensor models: trained and evaluated (R² = 0.91, MAE = 1.49)
+- YOLOv8: performs well on moderate crowd density; 
+  full held-out test set evaluation in progress
+- Compute resource application submitted to NIT Bhopal's 
+  Centre of Computing and Intelligence for retraining at scale
+- Hardware integration (Raspberry Pi + load cells + WiFi sniffer): in progress
+
+---
+
